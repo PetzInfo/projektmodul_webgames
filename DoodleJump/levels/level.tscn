@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://btddjv7a5h08j"]
+
+[ext_resource type="Script" path="res://levels/level.gd" id="1_bunfj"]
+[ext_resource type="PackedScene" uid="uid://cdc1tmgalpitx" path="res://player/player.tscn" id="1_gh2ii"]
+[ext_resource type="Texture2D" uid="uid://cja3wkmm6q5ah" path="res://assets/bck.png" id="2_0v82q"]
+
+[node name="Level" type="Node2D"]
+script = ExtResource("1_bunfj")
+
+[node name="Platforms" type="Node2D" parent="."]
+
+[node name="Player" parent="." instance=ExtResource("1_gh2ii")]
+position = Vector2(158, 381)
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_mirroring = Vector2(2.08165e-12, 512)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2(2.08165e-12, -512)
+texture = ExtResource("2_0v82q")
+centered = false

@@ -1,0 +1,16 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1701716905
+default_env.tres::Environment::-1::1701716864::0::1::::<><>::
+icon.png::CompressedTexture2D::5358097666874702908::1701716864::1701717019::1::::<><>::
+::res://assets/::1701716905
+bck.png::CompressedTexture2D::5406280867750331759::1701716864::1701716905::1::::<><>::
+blue-lik-right.png::CompressedTexture2D::4229135213146295186::1701716864::1701716905::1::::<><>::
+game-tiles.png::CompressedTexture2D::8636255815259849417::1701716864::1701716905::1::::<><>::
+::res://levels/::1701716864
+Level.gd::GDScript::-1::1701716864::0::1::::<>Node2D<>::
+Level.tscn::PackedScene::-1::1701716864::0::1::::<><>::res://player/Player.tscn<>res://assets/bck.png<>res://levels/Level.gd
+::res://objects/::1701716864
+Platform.tscn::PackedScene::-1::1701716864::0::1::::<><>::res://assets/game-tiles.png
+::res://player/::1701716864
+Player.gd::GDScript::-1::1701716864::0::1::::<>KinematicBody2D<>::
+Player.tscn::PackedScene::-1::1701716864::0::1::::<><>::res://assets/blue-lik-right.png<>res://player/Player.gd

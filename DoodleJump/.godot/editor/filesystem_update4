@@ -1,0 +1,9 @@
+res://levels/Level.tscn
+res://objects/Platform.tscn
+res://player/Player.tscn
+res://player/Player.gd
+res://player/player.tscn
+res://player/player.gd
+res://levels/level.gd
+res://levels/level.tscn
+res://objects/platform.tscn
